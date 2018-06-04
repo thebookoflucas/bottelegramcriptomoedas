@@ -3,9 +3,17 @@ Bot para o telegram que traz informações de uma criptomoeda no site coinmaketc
 
 bot simples em php de uma pagina que traz informações de moedas do site coinmaketcap.com
 
+Crie um bot com o Botfather e pegue a token
+
+Coloque a token no arquivo bot.php, logo no começo onde esta marcado
 
 
+Agora vamos Ativar seu Bot.
+Abra em seu navegador substituindo #token# pelo token e #site# com o endereço completo de onde esta salvo o bot: https://api.telegram.org/bot#token#/setwebhook?url=#site#
 
+lembrando que tem que ter ssl (https://).
+Se sua resposta for: {"ok":true,"result":true,"description":"Webhook is way set"}
+ 
 
 Como usar:
 
